@@ -1,6 +1,7 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
+# likely outputs
+*.json
+*.pem
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -20,3 +21,67 @@
 # Go workspace file
 go.work
 go.work.sum
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+ehthumbs.db
+Thumbs.db
+Icon
+
+# merge artifacts #
+###################
+*.orig
+
+# Emacs #
+#########
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# VIM #
+#######
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Sublime #
+###########
+*.sublime-workspace
+
+# tern #
+########
+.tern-port
+
+# VSCode #
+#########
+.vscode
+
+# Jetbrains #
+#############
+.idea
